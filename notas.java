@@ -17,6 +17,17 @@ public static void main(String[] args) {
 		String alunos[] = new String[2];
 		int totalPeso = 5+3+2;
 		
+		
+		Scanner sc1=new Scanner(System.in);
+       System.out.print("Quantos alunos dar notas? ");
+         int n=sc1.nextInt();
+         
+         int codigo[]=new int[n];
+                  String nome[]=new String[n];
+                 double preco[]=new double[n];
+         
+         
+		
 		Scanner sc = new Scanner(System.in);
 		System.out.print("** Sistema de Gestão Acadêmica ** \n");
 		System.out.print("-------------------------------------\n");
